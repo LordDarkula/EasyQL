@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87CE830D1CED5B9A0007E3EC /* EasyQL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87CE830C1CED5B9A0007E3EC /* EasyQL.h */; };
+		87CE830F1CED5B9A0007E3EC /* EasyQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE830E1CED5B9A0007E3EC /* EasyQL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87CE83071CED5B9A0007E3EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				87CE830D1CED5B9A0007E3EC /* EasyQL.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87CE83091CED5B9A0007E3EC /* libEasyQL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyQL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CE830C1CED5B9A0007E3EC /* EasyQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyQL.h; sourceTree = "<group>"; };
+		87CE830E1CED5B9A0007E3EC /* EasyQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyQL.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CE83061CED5B9A0007E3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87CE83001CED5B9A0007E3EC = {
+			isa = PBXGroup;
+			children = (
+				87CE830B1CED5B9A0007E3EC /* EasyQL */,
+				87CE830A1CED5B9A0007E3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87CE830A1CED5B9A0007E3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CE83091CED5B9A0007E3EC /* libEasyQL.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CE830B1CED5B9A0007E3EC /* EasyQL */ = {
+			isa = PBXGroup;
+			children = (
+				87CE830C1CED5B9A0007E3EC /* EasyQL.h */,
+				87CE830E1CED5B9A0007E3EC /* EasyQL.m */,
+			);
+			path = EasyQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CE83081CED5B9A0007E3EC /* EasyQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CE83121CED5B9A0007E3EC /* Build configuration list for PBXNativeTarget "EasyQL" */;
+			buildPhases = (
+				87CE83051CED5B9A0007E3EC /* Sources */,
+				87CE83061CED5B9A0007E3EC /* Frameworks */,
+				87CE83071CED5B9A0007E3EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyQL;
+			productName = EasyQL;
+			productReference = 87CE83091CED5B9A0007E3EC /* libEasyQL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CE83011CED5B9A0007E3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aubhro Sengupta";
+				TargetAttributes = {
+					87CE83081CED5B9A0007E3EC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 87CE83041CED5B9A0007E3EC /* Build configuration list for PBXProject "EasyQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87CE83001CED5B9A0007E3EC;
+			productRefGroup = 87CE830A1CED5B9A0007E3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CE83081CED5B9A0007E3EC /* EasyQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CE83051CED5B9A0007E3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE830F1CED5B9A0007E3EC /* EasyQL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87CE83101CED5B9A0007E3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87CE83111CED5B9A0007E3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CE83131CED5B9A0007E3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		87CE83141CED5B9A0007E3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CE83041CED5B9A0007E3EC /* Build configuration list for PBXProject "EasyQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CE83101CED5B9A0007E3EC /* Debug */,
+				87CE83111CED5B9A0007E3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CE83121CED5B9A0007E3EC /* Build configuration list for PBXNativeTarget "EasyQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CE83131CED5B9A0007E3EC /* Debug */,
+				87CE83141CED5B9A0007E3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CE83011CED5B9A0007E3EC /* Project object */;
+}
