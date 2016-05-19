@@ -6,8 +6,5 @@
 //  Copyright © 2016 Aubhro Sengupta. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface EasyQL : NSObject
-
-@end
+#import <UIKit/UIKit.h>
+#import <SQL/SQL.h>

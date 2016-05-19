@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		87CE830D1CED5B9A0007E3EC /* EasyQL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87CE830C1CED5B9A0007E3EC /* EasyQL.h */; };
-		87CE830F1CED5B9A0007E3EC /* EasyQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE830E1CED5B9A0007E3EC /* EasyQL.m */; };
+		87CE83161CED5C890007E3EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE83151CED5C890007E3EC /* UIKit.framework */; };
+		87CE83181CED5C9F0007E3EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CE83171CED5C9F0007E3EC /* Foundation.framework */; };
+		87CE831A1CED5CD60007E3EC /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CE830C1CED5B9A0007E3EC /* EasyQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CE831D1CED5D260007E3EC /* SQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CE831B1CED5D260007E3EC /* SQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CE831E1CED5D260007E3EC /* SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CE831C1CED5D260007E3EC /* SQL.m */; };
+		87CE831F1CED5D5E0007E3EC /* SQL.m in Headers */ = {isa = PBXBuildFile; fileRef = 87CE831C1CED5D260007E3EC /* SQL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +32,10 @@
 /* Begin PBXFileReference section */
 		87CE83091CED5B9A0007E3EC /* libEasyQL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyQL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CE830C1CED5B9A0007E3EC /* EasyQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyQL.h; sourceTree = "<group>"; };
-		87CE830E1CED5B9A0007E3EC /* EasyQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyQL.m; sourceTree = "<group>"; };
+		87CE83151CED5C890007E3EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87CE83171CED5C9F0007E3EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87CE831B1CED5D260007E3EC /* SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQL.h; sourceTree = "<group>"; };
+		87CE831C1CED5D260007E3EC /* SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CE83181CED5C9F0007E3EC /* Foundation.framework in Frameworks */,
+				87CE83161CED5C890007E3EC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +54,8 @@
 		87CE83001CED5B9A0007E3EC = {
 			isa = PBXGroup;
 			children = (
+				87CE83171CED5C9F0007E3EC /* Foundation.framework */,
+				87CE83151CED5C890007E3EC /* UIKit.framework */,
 				87CE830B1CED5B9A0007E3EC /* EasyQL */,
 				87CE830A1CED5B9A0007E3EC /* Products */,
 			);
@@ -60,13 +72,27 @@
 		87CE830B1CED5B9A0007E3EC /* EasyQL */ = {
 			isa = PBXGroup;
 			children = (
+				87CE831B1CED5D260007E3EC /* SQL.h */,
+				87CE831C1CED5D260007E3EC /* SQL.m */,
 				87CE830C1CED5B9A0007E3EC /* EasyQL.h */,
-				87CE830E1CED5B9A0007E3EC /* EasyQL.m */,
 			);
 			path = EasyQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87CE83191CED5CC60007E3EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CE831A1CED5CD60007E3EC /* EasyQL.h in Headers */,
+				87CE831D1CED5D260007E3EC /* SQL.h in Headers */,
+				87CE831F1CED5D5E0007E3EC /* SQL.m in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		87CE83081CED5B9A0007E3EC /* EasyQL */ = {
@@ -76,6 +102,7 @@
 				87CE83051CED5B9A0007E3EC /* Sources */,
 				87CE83061CED5B9A0007E3EC /* Frameworks */,
 				87CE83071CED5B9A0007E3EC /* CopyFiles */,
+				87CE83191CED5CC60007E3EC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -122,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CE830F1CED5B9A0007E3EC /* EasyQL.m in Sources */,
+				87CE831E1CED5D260007E3EC /* SQL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,18 +241,24 @@
 		87CE83131CED5B9A0007E3EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		87CE83141CED5B9A0007E3EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
