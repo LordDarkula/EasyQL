@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EasyQL_Tests' do
+  pod 'EasyQL', :path => '../'
+  
+  
+end
