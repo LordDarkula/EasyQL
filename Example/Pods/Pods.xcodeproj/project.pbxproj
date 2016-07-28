@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2F46DF16DC1562B0F4E8B6AE1540EF92 /* Pods-EasyQL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C4BFE2BDC23E48F655690AE729E79 /* Pods-EasyQL_Tests-dummy.m */; };
-		39A8616B58557BAC7138DA5D63D09D45 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 509ED9A4AA0C2C6AE61B0687BE76B447 /* ReplaceMe.m */; };
 		5FE81EBECE656D736C4C92656626A000 /* EasyQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7331F5FB7619CBADE49F9AFC5B9F6EDE /* EasyQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */; };
 		8258D4460F88CF348C46AD6B2F570EA6 /* Pods-EasyQL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0153E68924C09E1E864B7A12E72CE5D4 /* Pods-EasyQL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87592C1F1D4A9443001C5861 /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87592C1D1D4A9443001C5861 /* EasyQL.h */; };
+		87592C201D4A9443001C5861 /* EasyQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 87592C1E1D4A9443001C5861 /* EasyQL.m */; };
+		87592C221D4A9477001C5861 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87592C211D4A9477001C5861 /* libsqlite3.0.tbd */; };
 		B62F93749D2C92F8657162A920A710A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E8140611A33037271920C37F53593F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,10 +39,12 @@
 		290B99CC36DA2B8E992FC7E176AECB1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31544F610748FCDF141B56F7E345232D /* EasyQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyQL-umbrella.h"; sourceTree = "<group>"; };
-		509ED9A4AA0C2C6AE61B0687BE76B447 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		542CF5E3F6D60BAEBF8FA6E648FD871F /* Pods-EasyQL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyQL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D797926DBAFB430F23D031D4605A5D1 /* Pods-EasyQL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyQL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyQL-dummy.m"; sourceTree = "<group>"; };
+		87592C1D1D4A9443001C5861 /* EasyQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyQL.h; sourceTree = "<group>"; };
+		87592C1E1D4A9443001C5861 /* EasyQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyQL.m; sourceTree = "<group>"; };
+		87592C211D4A9477001C5861 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5DFF283EB147F0E2D866CA760A72AC /* EasyQL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyQL.modulemap; sourceTree = "<group>"; };
 		A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyQL.xcconfig; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87592C221D4A9477001C5861 /* libsqlite3.0.tbd in Frameworks */,
 				E8140611A33037271920C37F53593F56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +123,8 @@
 		8B20E69965DAA7F06172700DD472011E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				509ED9A4AA0C2C6AE61B0687BE76B447 /* ReplaceMe.m */,
+				87592C1D1D4A9443001C5861 /* EasyQL.h */,
+				87592C1E1D4A9443001C5861 /* EasyQL.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87592C211D4A9477001C5861 /* libsqlite3.0.tbd */,
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
@@ -196,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE81EBECE656D736C4C92656626A000 /* EasyQL-umbrella.h in Headers */,
+				87592C1F1D4A9443001C5861 /* EasyQL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87592C201D4A9443001C5861 /* EasyQL.m in Sources */,
 				7331F5FB7619CBADE49F9AFC5B9F6EDE /* EasyQL-dummy.m in Sources */,
-				39A8616B58557BAC7138DA5D63D09D45 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
