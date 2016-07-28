@@ -1,0 +1,6 @@
+framework module EasyQL {
+  umbrella header "EasyQL-umbrella.h"
+
+  export *
+  module * { export * }
+}

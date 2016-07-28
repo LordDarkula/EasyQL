@@ -1,0 +1,6 @@
+framework module Pods_EasyQL_Tests {
+  umbrella header "Pods-EasyQL_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
