@@ -77,7 +77,7 @@ NSMutableArray *data = [EasyQL getData:name];
 ```
 data would have the following structure
 ```objc
-@[ @[ @"one", @"two"].
+@[ @[ @"one", @"two"],
    @[ @"three, @"four"]]
 ```
 
