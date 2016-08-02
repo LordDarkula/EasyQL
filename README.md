@@ -15,10 +15,22 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 8.0+ 
+- Xcode 7.3+
+
 ## Installation
 
-EasyQL is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+> CocoaPods 0.39.0+ is required to build Alamofire 3.0.0+.
+
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "EasyQL"
