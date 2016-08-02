@@ -1,9 +1,9 @@
 {
   "name": "EasyQL",
   "version": "0.1.0",
-  "summary": "A short description of EasyQL.",
+  "summary": "A wrapper class for sqlite",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EasyQL",
+  "homepage": "https://github.com/LordDarkula/EasyQL",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Aubhro": "aubhrosengupta@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EasyQL.git",
+    "git": "https://github.com/LordDarkula/EasyQL.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057E67544B088B587D8125D280607AAD /* EasyQL.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C704651A33859569680521E1E98AA0 /* EasyQL.m */; };
+		0B3C94E1BAEBBEC92B2352B5FAE1919D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		2F46DF16DC1562B0F4E8B6AE1540EF92 /* Pods-EasyQL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C4BFE2BDC23E48F655690AE729E79 /* Pods-EasyQL_Tests-dummy.m */; };
-		5FE81EBECE656D736C4C92656626A000 /* EasyQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7331F5FB7619CBADE49F9AFC5B9F6EDE /* EasyQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */; };
+		4F9E34A8A3F600C2752FA113D500DF48 /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 546A81C33A400582EFD4EC8838E056B7 /* EasyQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE799F1448F160188E6B54B901CCBCF /* EasyQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */; };
 		8258D4460F88CF348C46AD6B2F570EA6 /* Pods-EasyQL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0153E68924C09E1E864B7A12E72CE5D4 /* Pods-EasyQL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87592C1F1D4A9443001C5861 /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87592C1D1D4A9443001C5861 /* EasyQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87592C201D4A9443001C5861 /* EasyQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 87592C1E1D4A9443001C5861 /* EasyQL.m */; };
-		87592C221D4A9477001C5861 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87592C211D4A9477001C5861 /* libsqlite3.0.tbd */; settings = {ATTRIBUTES = (Required, ); }; };
 		B62F93749D2C92F8657162A920A710A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E8140611A33037271920C37F53593F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F852A2A1399276ECFCE7E9F395CC0658 /* EasyQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +22,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6F325EF69F27092FB00F3F0A7A99A12;
+			remoteGlobalIDString = 82093892A658B165114CCED7EE452729;
 			remoteInfo = EasyQL;
 		};
 /* End PBXContainerItemProxy section */
@@ -40,14 +39,13 @@
 		31544F610748FCDF141B56F7E345232D /* EasyQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyQL-umbrella.h"; sourceTree = "<group>"; };
 		542CF5E3F6D60BAEBF8FA6E648FD871F /* Pods-EasyQL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyQL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		546A81C33A400582EFD4EC8838E056B7 /* EasyQL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EasyQL.h; sourceTree = "<group>"; };
 		7D797926DBAFB430F23D031D4605A5D1 /* Pods-EasyQL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyQL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyQL-dummy.m"; sourceTree = "<group>"; };
-		87592C1D1D4A9443001C5861 /* EasyQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyQL.h; sourceTree = "<group>"; };
-		87592C1E1D4A9443001C5861 /* EasyQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyQL.m; sourceTree = "<group>"; };
-		87592C211D4A9477001C5861 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5DFF283EB147F0E2D866CA760A72AC /* EasyQL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyQL.modulemap; sourceTree = "<group>"; };
 		A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyQL.xcconfig; sourceTree = "<group>"; };
+		B4C704651A33859569680521E1E98AA0 /* EasyQL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EasyQL.m; sourceTree = "<group>"; };
 		BD09CBD88B943F875E0C66BD39ACE4F1 /* Pods-EasyQL_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasyQL_Tests.modulemap"; sourceTree = "<group>"; };
 		C4E939B0E29F5DBB6335E1117073CCD3 /* Pods_EasyQL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyQL_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,15 +53,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E0546FB967CA45C801A94358676F105 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87592C221D4A9477001C5861 /* libsqlite3.0.tbd in Frameworks */,
-				E8140611A33037271920C37F53593F56 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7F7D837ACFC71C6686301E577AF31409 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,13 +61,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F15C5745EECB0AB288CA520F98EB3216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3C94E1BAEBBEC92B2352B5FAE1919D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24449FDA9BBF6CF55520188BF14849B4 /* EasyQL */ = {
+		20FF5E6132444813B77097E15FA63CC3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B20E69965DAA7F06172700DD472011E /* Classes */,
+				546A81C33A400582EFD4EC8838E056B7 /* EasyQL.h */,
+				B4C704651A33859569680521E1E98AA0 /* EasyQL.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27165ED0A800FCD44CEAD65F4B1AB126 /* EasyQL */ = {
+			isa = PBXGroup;
+			children = (
+				20FF5E6132444813B77097E15FA63CC3 /* Classes */,
 			);
 			path = EasyQL;
 			sourceTree = "<group>";
@@ -102,7 +108,7 @@
 		6B671A43CDD44454EF955C6396BB80ED /* EasyQL */ = {
 			isa = PBXGroup;
 			children = (
-				24449FDA9BBF6CF55520188BF14849B4 /* EasyQL */,
+				27165ED0A800FCD44CEAD65F4B1AB126 /* EasyQL */,
 				C199906E6F1CD79DC660BA053A26BE70 /* Support Files */,
 			);
 			name = EasyQL;
@@ -120,19 +126,9 @@
 			);
 			sourceTree = "<group>";
 		};
-		8B20E69965DAA7F06172700DD472011E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				87592C1D1D4A9443001C5861 /* EasyQL.h */,
-				87592C1E1D4A9443001C5861 /* EasyQL.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87592C211D4A9477001C5861 /* libsqlite3.0.tbd */,
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
@@ -190,6 +186,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3B4C51189105001AC258C321CA600DEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F852A2A1399276ECFCE7E9F395CC0658 /* EasyQL-umbrella.h in Headers */,
+				4F9E34A8A3F600C2752FA113D500DF48 /* EasyQL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		456116D0770CFBD581303D7530DACE26 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,25 +203,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A65F11648FD91D8C660D9E762E6C09C9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FE81EBECE656D736C4C92656626A000 /* EasyQL-umbrella.h in Headers */,
-				87592C1F1D4A9443001C5861 /* EasyQL.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B6F325EF69F27092FB00F3F0A7A99A12 /* EasyQL */ = {
+		82093892A658B165114CCED7EE452729 /* EasyQL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C650138D4A7C5F54334E1BC061DC3CB /* Build configuration list for PBXNativeTarget "EasyQL" */;
+			buildConfigurationList = 20DF1EF58E8D6F5A639BABFFFBCB02F1 /* Build configuration list for PBXNativeTarget "EasyQL" */;
 			buildPhases = (
-				F9A687A904E2610154F6B0DCDEE5B07F /* Sources */,
-				0E0546FB967CA45C801A94358676F105 /* Frameworks */,
-				A65F11648FD91D8C660D9E762E6C09C9 /* Headers */,
+				B52F194690E41CE8075EE0A80E2B5BDB /* Sources */,
+				F15C5745EECB0AB288CA520F98EB3216 /* Frameworks */,
+				3B4C51189105001AC258C321CA600DEB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -266,27 +262,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6F325EF69F27092FB00F3F0A7A99A12 /* EasyQL */,
+				82093892A658B165114CCED7EE452729 /* EasyQL */,
 				FE94F198CBF73E9416A6338EA747C0A7 /* Pods-EasyQL_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B52F194690E41CE8075EE0A80E2B5BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE799F1448F160188E6B54B901CCBCF /* EasyQL-dummy.m in Sources */,
+				057E67544B088B587D8125D280607AAD /* EasyQL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D04C4BE2B45A4A5A074AEC8110EEA139 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2F46DF16DC1562B0F4E8B6AE1540EF92 /* Pods-EasyQL_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9A687A904E2610154F6B0DCDEE5B07F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87592C201D4A9443001C5861 /* EasyQL.m in Sources */,
-				7331F5FB7619CBADE49F9AFC5B9F6EDE /* EasyQL-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +292,7 @@
 		4EF55FBB339752A85DD04EFB0563CB65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyQL;
-			target = B6F325EF69F27092FB00F3F0A7A99A12 /* EasyQL */;
+			target = 82093892A658B165114CCED7EE452729 /* EasyQL */;
 			targetProxy = 428AADAF3092F8FE53D2AB80788CF432 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -306,7 +302,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -341,6 +336,35 @@
 			};
 			name = Release;
 		};
+		0BC02F418C86173BF61AABA4253F268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyQL/EasyQL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyQL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyQL/EasyQL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyQL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		14AFB8E79189D14D90CBFDA4AA57A3B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D797926DBAFB430F23D031D4605A5D1 /* Pods-EasyQL_Tests.release.xcconfig */;
@@ -366,37 +390,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_EasyQL_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		35D75A7A16B876B3C18E97B74F06BC34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EasyQL/EasyQL-prefix.pch";
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
-				INFOPLIST_FILE = "Target Support Files/EasyQL/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyQL/EasyQL.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EasyQL;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,11 +431,39 @@
 			};
 			name = Debug;
 		};
+		B25FF980B08212DA51B8A695561403E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyQL/EasyQL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyQL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyQL/EasyQL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EasyQL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -481,45 +502,14 @@
 			};
 			name = Debug;
 		};
-		D55765FE7918CB1A88C3D5E647D56410 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EasyQL/EasyQL-prefix.pch";
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
-				INFOPLIST_FILE = "Target Support Files/EasyQL/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyQL/EasyQL.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EasyQL;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C650138D4A7C5F54334E1BC061DC3CB /* Build configuration list for PBXNativeTarget "EasyQL" */ = {
+		20DF1EF58E8D6F5A639BABFFFBCB02F1 /* Build configuration list for PBXNativeTarget "EasyQL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D55765FE7918CB1A88C3D5E647D56410 /* Debug */,
-				35D75A7A16B876B3C18E97B74F06BC34 /* Release */,
+				B25FF980B08212DA51B8A695561403E5 /* Debug */,
+				0BC02F418C86173BF61AABA4253F268F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
