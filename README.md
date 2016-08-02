@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/EasyQL.svg?style=flat)](http://cocoapods.org/pods/EasyQL)
 [![Platform](https://img.shields.io/cocoapods/p/EasyQL.svg?style=flat)](http://cocoapods.org/pods/EasyQL)
 
+## Introduction
+
+A quick and convenient way to create and manage local sqlite3 databases. Databases can be created with a single line of code. Data can be get and set without creating queries. Queries can also be passed in as a string.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

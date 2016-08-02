@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A quick and convenient way to create and manage local sqlite3 databases. Databases can be created with a single line of code. Data can be get and set without creating queries. Queries can also be passed in as a string.
                        DESC
 
   s.homepage         = 'https://github.com/LordDarkula/EasyQL'
