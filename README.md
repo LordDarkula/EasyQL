@@ -28,7 +28,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 $ gem install cocoapods
 ```
 
-> CocoaPods 0.39.0+ is required to build Alamofire 3.0.0+.
+> CocoaPods 0.39.0+ is required to build EasyQL 
 
 To install it, simply add the following line to your Podfile:
 
