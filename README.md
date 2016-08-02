@@ -43,3 +43,50 @@ Aubhro, aubhrosengupta@gmail.com
 ## License
 
 EasyQL is available under the MIT license. See the LICENSE file for more info.
+
+## Usage
+
+First, import EasyQL
+```objc
+#import <EasyQL.h>
+```
+
+Create a table
+```objc
+// Table name stored in myTableName
+NSString *name = @"myTableName";
+
+// Columns named "first" and "second"
+NSArray *columns = @[@"first", @"second"];
+
+[EasyQL createDB:name :columns];
+```
+
+Add data to the table
+```objc
+NSMutableArray *data = [[NSMutableArray alloc] init];
+[data insertObject:@[@"one", @"two"] atIndex:0];
+[data insertObject:@[@"three", @"four"] atIndex:1];
+
+[EasyQL setData:name :columns :data];
+```
+
+To get the data 
+```objc
+NSMutableArray *data = [EasyQL getData:name];
+```
+data would have the following structure
+```objc
+@[ @[ @"one", @"two"].
+   @[ @"three, @"four"]]
+```
+
+To use queries with EasyQL
+```objc
+
+// This particular query deletes everything in the query, but any query should work
+NSString *query = [NSString stringWithFormat:@"DELETE FROM %@", name];
+[SQL applyQuery:name :query];
+```
+
+Thats it for now. I will keep adding functionality as time goes on.
