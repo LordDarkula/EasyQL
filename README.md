@@ -1,6 +1,6 @@
 # EasyQL
 
-[![CI Status](http://img.shields.io/travis/Aubhro/EasyQL.svg?style=flat)](https://travis-ci.org/Aubhro/EasyQL)
+[![Build Status](https://travis-ci.org/LordDarkula/EasyQL.svg?branch=master)](https://travis-ci.org/LordDarkula/EasyQL)
 [![Version](https://img.shields.io/cocoapods/v/EasyQL.svg?style=flat)](http://cocoapods.org/pods/EasyQL)
 [![License](https://img.shields.io/cocoapods/l/EasyQL.svg?style=flat)](http://cocoapods.org/pods/EasyQL)
 [![Platform](https://img.shields.io/cocoapods/p/EasyQL.svg?style=flat)](http://cocoapods.org/pods/EasyQL)
