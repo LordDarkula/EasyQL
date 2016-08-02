@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <sqlite3.0>
+
 @interface EasyQL : NSObject
 
 @end

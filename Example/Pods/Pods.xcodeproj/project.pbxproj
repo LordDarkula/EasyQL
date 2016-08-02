@@ -11,9 +11,9 @@
 		5FE81EBECE656D736C4C92656626A000 /* EasyQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7331F5FB7619CBADE49F9AFC5B9F6EDE /* EasyQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */; };
 		8258D4460F88CF348C46AD6B2F570EA6 /* Pods-EasyQL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0153E68924C09E1E864B7A12E72CE5D4 /* Pods-EasyQL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87592C1F1D4A9443001C5861 /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87592C1D1D4A9443001C5861 /* EasyQL.h */; };
+		87592C1F1D4A9443001C5861 /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 87592C1D1D4A9443001C5861 /* EasyQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87592C201D4A9443001C5861 /* EasyQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 87592C1E1D4A9443001C5861 /* EasyQL.m */; };
-		87592C221D4A9477001C5861 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87592C211D4A9477001C5861 /* libsqlite3.0.tbd */; };
+		87592C221D4A9477001C5861 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87592C211D4A9477001C5861 /* libsqlite3.0.tbd */; settings = {ATTRIBUTES = (Required, ); }; };
 		B62F93749D2C92F8657162A920A710A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E8140611A33037271920C37F53593F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -306,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -377,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -387,6 +389,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/EasyQL/EasyQL-prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
 				INFOPLIST_FILE = "Target Support Files/EasyQL/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -439,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -481,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -491,6 +496,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/EasyQL/EasyQL-prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
 				INFOPLIST_FILE = "Target Support Files/EasyQL/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

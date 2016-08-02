@@ -6,6 +6,7 @@
 //
 //
 
+#import <sqlite3.h>
 #import "EasyQL.h"
 
 @implementation EasyQL
