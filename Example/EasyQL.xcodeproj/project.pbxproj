@@ -343,7 +343,6 @@
 			baseConfigurationReference = A9C3B8D4BB7D157592D25169 /* Pods-EasyQL_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
@@ -366,7 +365,6 @@
 			baseConfigurationReference = E2F4EDEFB9F694F30F587D5D /* Pods-EasyQL_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
