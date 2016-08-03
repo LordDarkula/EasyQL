@@ -7,6 +7,7 @@
 //
 
 @import XCTest;
+@import EasyQL;
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,25 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    // Table name stored in myTableName
+    NSString *name = @"myTableName";
+    
+    // Columns named "first" and "second"
+    NSArray *columns = @[@"first", @"second"];
+    
+    [EasyQL createDB:name :columns];
+    
+    NSMutableArray *data = [[NSMutableArray alloc] init];
+    [data insertObject:@[@"one", @"two"] atIndex:0];
+    [data insertObject:@[@"three", @"four"] atIndex:1];
+    
+    [EasyQL setData:name :columns :data];
+    
+    NSMutableArray *dOut = [EasyQL getData:name];
+    XCTAssertEqualObjects(dOut[0][0], @"one");
+    XCTAssertEqualObjects(dOut[0][1], @"two");
+    XCTAssertEqualObjects(dOut[1][0], @"three");
+    XCTAssertEqualObjects(dOut[1][1], @"four");
 }
 
 @end

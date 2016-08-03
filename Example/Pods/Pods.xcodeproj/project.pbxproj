@@ -13,10 +13,7 @@
 		4F9E34A8A3F600C2752FA113D500DF48 /* EasyQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 546A81C33A400582EFD4EC8838E056B7 /* EasyQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EE799F1448F160188E6B54B901CCBCF /* EasyQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */; };
 		8258D4460F88CF348C46AD6B2F570EA6 /* Pods-EasyQL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0153E68924C09E1E864B7A12E72CE5D4 /* Pods-EasyQL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		874B44C71D515B4100AC1010 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 874B44C61D515B4100AC1010 /* libsqlite3.tbd */; };
 		B62F93749D2C92F8657162A920A710A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B75003CADA9BA137D4CB8FBC /* libPods-Pods-EasyQL_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CF10565BE8AC91C658A863 /* libPods-Pods-EasyQL_Tests.a */; };
-		EB85DD5EAB88FE6B3A8CFE08 /* libPods-EasyQL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B5031C1DACA14C186D6FAE /* libPods-EasyQL.a */; };
 		F852A2A1399276ECFCE7E9F395CC0658 /* EasyQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,13 +38,10 @@
 		290B99CC36DA2B8E992FC7E176AECB1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31544F610748FCDF141B56F7E345232D /* EasyQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EDC9A42A6AFED6FF763B83CC0F5EDF /* EasyQL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyQL-umbrella.h"; sourceTree = "<group>"; };
-		49CF10565BE8AC91C658A863 /* libPods-Pods-EasyQL_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pods-EasyQL_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		542CF5E3F6D60BAEBF8FA6E648FD871F /* Pods-EasyQL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyQL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		546A81C33A400582EFD4EC8838E056B7 /* EasyQL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EasyQL.h; sourceTree = "<group>"; };
-		55B5031C1DACA14C186D6FAE /* libPods-EasyQL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyQL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D797926DBAFB430F23D031D4605A5D1 /* Pods-EasyQL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyQL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		832EA27FB4C3D4B08D0FEF422D803B5C /* EasyQL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyQL-dummy.m"; sourceTree = "<group>"; };
-		874B44C61D515B4100AC1010 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5DFF283EB147F0E2D866CA760A72AC /* EasyQL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyQL.modulemap; sourceTree = "<group>"; };
 		A36D3AA517705144D2E44371B49CCD2A /* EasyQL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyQL.xcconfig; sourceTree = "<group>"; };
@@ -63,9 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874B44C71D515B4100AC1010 /* libsqlite3.tbd in Frameworks */,
 				B62F93749D2C92F8657162A920A710A0 /* Foundation.framework in Frameworks */,
-				B75003CADA9BA137D4CB8FBC /* libPods-Pods-EasyQL_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +66,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3C94E1BAEBBEC92B2352B5FAE1919D /* Foundation.framework in Frameworks */,
-				EB85DD5EAB88FE6B3A8CFE08 /* libPods-EasyQL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,24 +123,13 @@
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E7185D5A806A301EC9EAAF6E09B57B6D /* Products */,
 				C66A9815E46CB6B27D6484015F9D8273 /* Targets Support Files */,
-				B4BEE9837D19D415D99E4A59 /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		B4BEE9837D19D415D99E4A59 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				874B44C61D515B4100AC1010 /* libsqlite3.tbd */,
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-				55B5031C1DACA14C186D6FAE /* libPods-EasyQL.a */,
-				49CF10565BE8AC91C658A863 /* libPods-Pods-EasyQL_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,11 +210,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20DF1EF58E8D6F5A639BABFFFBCB02F1 /* Build configuration list for PBXNativeTarget "EasyQL" */;
 			buildPhases = (
-				AB657E435F9239ACDE10F8C0 /* [CP] Check Pods Manifest.lock */,
 				B52F194690E41CE8075EE0A80E2B5BDB /* Sources */,
 				F15C5745EECB0AB288CA520F98EB3216 /* Frameworks */,
 				3B4C51189105001AC258C321CA600DEB /* Headers */,
-				E791052E2D071639A3E34802 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,11 +227,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 741B1423C553B003D98AFE4910D5553A /* Build configuration list for PBXNativeTarget "Pods-EasyQL_Tests" */;
 			buildPhases = (
-				54CA4287CDCB472E6D63928F /* [CP] Check Pods Manifest.lock */,
 				D04C4BE2B45A4A5A074AEC8110EEA139 /* Sources */,
 				7F7D837ACFC71C6686301E577AF31409 /* Frameworks */,
 				456116D0770CFBD581303D7530DACE26 /* Headers */,
-				8AE953C381C122F475DE7AD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,69 +267,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		54CA4287CDCB472E6D63928F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8AE953C381C122F475DE7AD2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pods-EasyQL_Tests/Pods-Pods-EasyQL_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB657E435F9239ACDE10F8C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E791052E2D071639A3E34802 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyQL/Pods-EasyQL-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B52F194690E41CE8075EE0A80E2B5BDB /* Sources */ = {

@@ -2,7 +2,7 @@
   "name": "EasyQL",
   "version": "0.1.0",
   "summary": "A wrapper class for sqlite",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "A quick and convenient way to create and manage local sqlite3 databases. Databases can be created with a single line of code. Data can be get and set without creating queries. Queries can also be passed in as a string.",
   "homepage": "https://github.com/LordDarkula/EasyQL",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "EasyQL/Classes/**/*"
+  "source_files": "EasyQL/Classes/**/*",
+  "libraries": "sqlite3"
 }
