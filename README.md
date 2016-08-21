@@ -10,9 +10,9 @@
 
 A quick and convenient way to create and manage local sqlite3 databases. Databases can be created with a single line of code. Data can be get and set without creating queries. Queries can also be passed in as a string.
 
-## Tests
+## Example
 
-To run the unit tests, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
