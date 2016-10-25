@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Easyql by LordDarkula</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Easyql</h1>
+        <h2>SQLite framework for iOS</h2>
+        <a href="https://github.com/LordDarkula/EasyQL" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="easyql" class="anchor" href="#easyql" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EasyQL</h1>
+
+<p><a href="https://travis-ci.org/LordDarkula/EasyQL"><img src="https://travis-ci.org/LordDarkula/EasyQL.svg?branch=master" alt="Build Status"></a>
+<a href="http://cocoapods.org/pods/EasyQL"><img src="https://img.shields.io/cocoapods/v/EasyQL.svg?style=flat" alt="Version"></a>
+<a href="http://cocoapods.org/pods/EasyQL"><img src="https://img.shields.io/cocoapods/l/EasyQL.svg?style=flat" alt="License"></a>
+<a href="http://cocoapods.org/pods/EasyQL"><img src="https://img.shields.io/cocoapods/p/EasyQL.svg?style=flat" alt="Platform"></a>
+<a href="http://twitter.com/LordDarkula"><img src="https://img.shields.io/badge/twitter-@LordDarkula-blue.svg?style=flat" alt="Twitter"></a></p>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>A quick and convenient way to create and manage local sqlite3 databases. Databases can be created with a single line of code. Data can be get and set without creating queries. Queries can also be passed in as a string.</p>
+
+<h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li>iOS 8.0+ </li>
+<li>Xcode 7.3+</li>
+</ul>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="cocoapods" class="anchor" href="#cocoapods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CocoaPods</h3>
+
+<p><a href="http://cocoapods.org">CocoaPods</a> is a dependency manager for Cocoa projects. You can install it with the following command:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ gem install cocoapods</pre></div>
+
+<blockquote>
+<p>CocoaPods 0.39.0+ is required to build EasyQL </p>
+</blockquote>
+
+<p>To install it, simply add the following line to your Podfile:</p>
+
+<div class="highlight highlight-source-ruby"><pre>pod <span class="pl-s"><span class="pl-pds">"</span>EasyQL<span class="pl-pds">"</span></span></pre></div>
+
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
+
+<p>Aubhro, <a href="mailto:aubhrosengupta@gmail.com">aubhrosengupta@gmail.com</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>EasyQL is available under the MIT license. See the LICENSE file for more info.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>First, import EasyQL</p>
+
+<div class="highlight highlight-source-objc"><pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">&lt;</span>EasyQL.h<span class="pl-pds">&gt;</span></span></pre></div>
+
+<p>Create a table</p>
+
+<div class="highlight highlight-source-objc"><pre><span class="pl-c">// Table name stored in myTableName</span>
+<span class="pl-c1">NSString</span> *name = <span class="pl-s"><span class="pl-pds">@"</span>myTableName<span class="pl-pds">"</span></span>;
+
+<span class="pl-c">// Columns named "first" and "second"</span>
+<span class="pl-c1">NSArray</span> *columns = @[<span class="pl-s"><span class="pl-pds">@"</span>first<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">@"</span>second<span class="pl-pds">"</span></span>];
+
+[EasyQL <span class="pl-c1">createDB:</span>name :columns];</pre></div>
+
+<p>Add data to the table</p>
+
+<div class="highlight highlight-source-objc"><pre><span class="pl-c1">NSMutableArray</span> *data = [[<span class="pl-c1">NSMutableArray</span> <span class="pl-c1">alloc</span>] <span class="pl-c1">init</span>];
+[data <span class="pl-c1">insertObject:</span>@[<span class="pl-s"><span class="pl-pds">@"</span>one<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">@"</span>two<span class="pl-pds">"</span></span>] <span class="pl-c1">atIndex:</span><span class="pl-c1">0</span>];
+[data <span class="pl-c1">insertObject:</span>@[<span class="pl-s"><span class="pl-pds">@"</span>three<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">@"</span>four<span class="pl-pds">"</span></span>] <span class="pl-c1">atIndex:</span><span class="pl-c1">1</span>];
+
+[EasyQL <span class="pl-c1">setData:</span>name :columns :data];</pre></div>
+
+<p>To get the data </p>
+
+<div class="highlight highlight-source-objc"><pre><span class="pl-c1">NSMutableArray</span> *data = [EasyQL <span class="pl-c1">getData:</span>name];</pre></div>
+
+<p>data would have the following structure</p>
+
+<div class="highlight highlight-source-objc"><pre>@[ @[ <span class="pl-s"><span class="pl-pds">@"</span>one<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">@"</span>two<span class="pl-pds">"</span></span>],
+   @[ <span class="pl-s"><span class="pl-pds">@"</span>three<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">@"</span>four<span class="pl-pds">"</span></span>]]</pre></div>
+
+<p>To use queries with EasyQL</p>
+
+<div class="highlight highlight-source-objc"><pre>
+<span class="pl-c">// This particular query deletes everything in the query, but any query should work</span>
+<span class="pl-c1">NSString</span> *query = [<span class="pl-c1">NSString</span> <span class="pl-c1">stringWithFormat:</span><span class="pl-s"><span class="pl-pds">@"</span>DELETE FROM <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, name];
+[SQL <span class="pl-c1">applyQuery:</span>name :query];</pre></div>
+
+<p>Thats it for now. I will keep adding functionality as time goes on.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/LordDarkula/EasyQL/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/LordDarkula/EasyQL/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/LordDarkula/EasyQL"></a> is maintained by <a href="https://github.com/LordDarkula">LordDarkula</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
